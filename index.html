@@ -6,20 +6,28 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Project</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media/media-1920.css">
+    <link rel="stylesheet" href="css/media/media-1001-1439.css">
+    <link rel="stylesheet" href="css/media/media-801-1000.css">
+    <link rel="stylesheet" href="css/media/media-600-800.css">
+    <link rel="stylesheet" href="css/media/media-320-599.css">
 </head>
 <body>
-        <div class="main-screen container">
+        <div id="home" class="main-screen">
             <header>
                 <div class="logo">
                     <img src="icons/Logo-icon.png" alt="Logo">
                     <span>Enver</span>
                 </div>
                 <nav class="menu">
-                    <a href="#" class="menu-list">Home</a>
-                    <a href="#" class="menu-list">Services</a>
-                    <a href="#" class="menu-list">Our Project</a>
-                    <a href="#" class="menu-list">About us</a>
+                    <a href="#home" class="menu-list">Home</a>
+                    <a href="#services" class="menu-list">Services</a>
+                    <a href="#portfolio" class="menu-list">Our Project</a>
+                    <a href="#about-us" class="menu-list">About us</a>
                 </nav>
                 <button class="btn_contact">Contact us</button>
             </header>
@@ -36,7 +44,7 @@
             </section>
 
         </div>
-        <section class="best-choice container">
+        <section id="about-us" class="best-choice">
             <div class="best-choice_text-block">
                 <h2>Why Enver Is The Best Choice?</h2>
                 <p>Watch this one minute video so you understand why you should use our services!</p>
@@ -46,7 +54,7 @@
             </div>
         </section>
 
-        <section class="services container">
+        <section id="services" class="services">
             <h2>The Service We Provide For You</h2>
             <div class="services-list">
                 <div class="service-item">
@@ -94,7 +102,7 @@
             </div>
         </section>
 
-        <section class="portfolio container">
+        <section id="portfolio" class="portfolio">
             <h2>Our Awesome Portfolio</h2>
             <div class="portfolio-examples">
                 <div class="example-work">
@@ -116,10 +124,15 @@
             </div>
         </section>
 
-        <footer class="container">
-            <div class="logo">
+        <footer>
+            <div class="footer-logo logo ">
                 <img src="icons/Logo-icon.png" alt="Logo">
                 <span>Enver</span>
+            </div>
+            <div class="footer-menu">
+                <a href="#" class="footer-menu-list">Support</a>
+                <a href="#" class="footer-menu-list">Privacy Policy</a>
+                <a href="#" class="footer-menu-list">Terms And Conditions</a>
             </div>
             <p>© 2024 Enver, All Rights Reserved</p>
         </footer>

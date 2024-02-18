@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:ital,wght@0,700;1,700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     box-sizing: border-box;
@@ -7,11 +11,10 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-.container {
-    max-width: 1200px;
+.main-screen, .best-choice, .services, .portfolio, footer {
+    width: 83vw;
     margin: 0 auto;
 }
-
 /*Header*/
 
 header {
@@ -101,10 +104,12 @@ header {
 .main-image {
     width: 53%;
     height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .main-image img {
-    height: 95%;
+    height: 90%;
 }
 
 .text-block h1 {
@@ -185,6 +190,11 @@ header {
     height: 79vh;
 }
 
+.best-choice_image img {
+    width: 100%;
+    height: 100%;
+}
+
 /*Services block*/
 
 .services h2 {
@@ -239,6 +249,7 @@ header {
     margin: 0 0 20px 0;
     border-radius: 50%;
 }
+
 
 .development {
     background-color: rgba(84, 84, 212, 0.10);
@@ -311,11 +322,16 @@ header {
     margin-right: 24px;
     border-radius: 14px;
     background-color: #1E1E20;
+    cursor: pointer;
 }
 
 .example-work:last-child {
     margin-right: 0;
-    border-radius: 12px;
+}
+
+.example-work:hover {
+    transform: scale(1.1);
+    transition: 500ms;
 }
 
 .example-work img {
@@ -334,7 +350,7 @@ header {
 }
 
 .contact-block {
-    width: 1200px;
+    width: 83vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -360,5 +376,9 @@ footer p {
     font-size: 16px;
     line-height: 38px;
     letter-spacing: -0.5px;
+}
+
+.footer-menu {
+    display: none;
 }
 

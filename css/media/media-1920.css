@@ -1,0 +1,46 @@
+@media (min-width: 1920px){
+    .logo img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .logo span {
+        font-size: 35px;
+    }
+
+    .menu-list {
+        margin: 0 80px 0 0;
+        font-size: 25px;
+    }
+
+    .btn_contact {
+        width: 200px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .text-block h1 {
+        font-size: 100px;
+        line-height: 110px;
+    }
+
+    .text-block p {
+        font-size: 25px;
+        line-height: 39px;
+    }
+
+    .button {
+        height: 60px;
+        font-size: 25px;
+    }
+
+    .best-choice_text-block p {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .example-work {
+        width: 27%;
+        height: 330px;
+    }
+}

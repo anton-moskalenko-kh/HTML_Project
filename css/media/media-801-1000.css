@@ -1,0 +1,140 @@
+@media (min-width: 801px) and (max-width: 1000px) {
+
+    .main-screen, .best-choice, .services, .portfolio, footer {
+        width: 87vw;
+        margin: 0 auto;
+    }
+
+    .btn_contact {
+        width: 120px;
+    }
+
+    .first-screen {
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        padding-bottom: 0;
+        margin: 5vh 0 10vh 0;
+    }
+
+    .text-block {
+        display: flex;
+        width: 100%;
+        height: 35vh;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+
+    .text-block h1 {
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 130%;
+        margin: 0 0 15px 0;
+    }
+
+    .text-block p {
+        font-size: 23px;
+        line-height: 150%;
+        margin-bottom: 30px;
+    }
+
+    .button {
+        width: 204px;
+        height: 58px;
+        font-size: 20px;
+    }
+
+    .main-image {
+        width: 100%;
+        height: 60vh;
+        margin-top: 0;
+    }
+
+    .main-image img {
+        height: 80%;
+    }
+
+    .best-choice_text-block {
+        flex-direction: column;
+        height: 20vh;
+        justify-content: flex-start;
+    }
+
+    .best-choice_text-block h2 {
+        width: 100%;
+        font-size: 50px;
+        line-height: 150%;
+        margin: 0 0 30px 0;
+        font-weight: 400;
+    }
+
+    .best-choice_text-block p {
+        width: 100%;
+        font-size: 20px;
+        line-height: 150%;
+    }
+
+    .best-choice_image {
+        height: 35vh;
+    }
+
+    .services h2 {
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 150%;
+        height: 15vh;
+        margin-bottom: 3vh;
+        text-align: start;
+    }
+
+    .portfolio h2 {
+        width: 87vw;
+        height: 6vh;
+        margin: 0 auto 7vh auto;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+    .portfolio-examples {
+        height: 100%;
+        display: block;
+    }
+
+    .example-work {
+        width: calc(60vw - 48px);
+        height: 100%;
+        padding: 24px;
+        margin: 0 auto 20px auto;
+        border-radius: 14px;
+    }
+
+    .example-work:last-child {
+        margin: 0 auto;
+    }
+
+    .example-work img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .contact {
+        height: 50vh;
+        margin-bottom: 15vh;
+    }
+
+    .contact-block {
+        width: 87vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact h2 {
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+}
